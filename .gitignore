@@ -1,0 +1,49 @@
+# Environment Configuration is removed since the repo is private
+# .env
+
+# Dependency directory
+# https://www.npmjs.org/doc/misc/npm-faq.html#should-i-check-my-node_modules-folder-into-git-
+node_modules
+
+# Debug log from npm
+npm-debug.log
+
+# Clinic logs
+.clinic
+
+# winston logs
+logs/*
+
+# newrelic logs
+newrelic_agent.log
+
+# Test
+.nyc_output/*
+
+# Visual Studio Code
+.vscode
+.history
+# Elastic Beanstalk Files
+.elasticbeanstalk/*
+!.elasticbeanstalk/*.cfg.yml
+!.elasticbeanstalk/*.global.yml
+.ebextensions/*
+
+# TODOS
+todos.md
+
+# *.ppk
+# *.pem
+# Mock Data generator
+# data/*
+
+# tmp uploads
+tmp/uploads/*
+
+toolscripts/
+
+# coverage
+coverage
+
+# clinic
+.clinic

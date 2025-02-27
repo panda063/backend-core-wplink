@@ -1,0 +1,46 @@
+@hostname = http://localhost
+@port = 8081
+@host = {{hostname}}:{{port}}
+@contentType = application/json
+@creatorEmail = manish@passionbits.io
+@clientEmail = manish@whitepanda.If-None-Match: 
+@password = 1234
+@token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7ImlkIjoiNWY5MmFmNjEzNDFiZDQyNGIwNzllZWUyIiwiZW1haWwiOiJtYW5pc2hAcGFzc2lvbmJpdHMuaW8iLCJyb2xlIjoiV3JpdGVyIn0sImlhdCI6MTYwNDA0NjcwNSwiZXhwIjoxNjA2NjM4NzA1fQ.bpCF6nm5Wl1XatFM8FBmnaW87GdSwVf6QBxPQciBFF0
+
+###
+
+# Login Writer
+POST {{host}}/writer/login
+Content-Type: "{{contentType}}"
+
+{
+    "email": "{{creatorEmail}}",
+    "password": "{{password}}"
+}
+
+###
+# Report
+# report_type [ profile | post | message ]
+# When user report post then type is post and postId should added without against
+POST {{host}}/report
+Content-Type: {{contentType}}
+Authorization: Bearer {{token}}
+
+{
+    "against": "5f92af61341bd424b079ee81", 
+    "reason": "Just Trying",
+    "report_type": "profile",
+    "postId": "5f92af61341bd424b079ee7e"
+}
+
+###
+
+
+POST {{host}}/sa/industry
+Content-Type: {{contentType}}
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7ImlkIjoiNWZiOTA4YjljZDMyZWM2NTUxZjYwNzVkIiwiZW1haWwiOiJzYXJvc2hhbkB4eC5jb20iLCJyb2xlIjoiU0EifSwiaWF0IjoxNjA1OTYxOTUwLCJleHAiOjE2MDg1NTM5NTB9.gmxs2BDDSjdhoi-4qQ38_AXLMn7ag9NZIDeWInimAfk
+
+{
+    "name": "Marketing", 
+    "value": "Marketing"
+}

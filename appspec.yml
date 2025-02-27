@@ -1,0 +1,16 @@
+version: 0.0
+os: linux
+files:
+    - source: /
+      destination: /home/ec2-user/passionbits/backend-core
+hooks:
+    AfterInstall:
+        - location: scripts/after_install.sh
+          timeout: 600
+    #      runas: ec2-user
+    # During the ApplicationInstall deployment lifecycle event, run the commands
+    #   in the script specified in "location".
+    ApplicationStart:
+        - location: scripts/application_start.sh
+          timeout: 300
+#      runas: ec2-user

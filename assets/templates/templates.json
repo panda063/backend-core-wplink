@@ -1,0 +1,143 @@
+{
+    "dev": {
+        "Narutouzumaki103": {
+            "id": "Narutouzumaki103",
+            "description": "Aimed at experienced freelancers who have dipped thier feet in various digital fields. Organise your work in pages to suit different clients from different fields.",
+            "role": "UX Designer",
+            "tags": [],
+            "thumbnail": "/images/templetes/vishwavijayrana.png"
+        }
+    },
+    "stage": {
+        "arpit-narut": {
+            "id": "arpit-narut",
+            "description": "Aimed at experienced freelancers who have dipped thier feet in various digital fields. Organise your work in pages to suit different clients from different fields.",
+            "role": "Arpit",
+            "name": "Arpit",
+            "tags": ["Single Page"],
+            "thumbnail": "/images/templetes/vishwavijayrana.png"
+        },
+        "manishprajapati_": {
+            "id": "manishprajapati",
+            "description": "This template is designed for aspiring UX Designers. A collection of case studies and services will set you up for your fiirst client!",
+            "role": "Manish",
+            "name": "Manish",
+            "tags": ["Single Page"],
+            "thumbnail": "/images/templetes/vishwavijayrana.png"
+        }
+    },
+    "prod": {
+        "joshss": {
+            "id": "joshss",
+            "name": "Marketing",
+            "description": "Marketing yourself in different fields. Organise your work experiences, testimonials and articles according to field different fields.",
+            "role": "Marketing",
+            "tags": ["Marketing", "SaaS", "Multi Page"],
+            "thumbnail": "/images/templetes/joshss.png"
+        },
+        "adrianv3": {
+            "id": "adrianv3",
+            "name": "Marketing",
+            "description": "Get the head start to your marketing freelancer journey. A single page to showcase your content with a professional look.",
+            "role": "Marketing",
+            "tags": ["Marketing", "SaaS", "Multi Page"],
+            "thumbnail": "/images/templetes/adrianv3.png"
+        },
+        "joshv2": {
+            "id": "joshv2",
+            "name": "Content Writing ",
+            "description": "Content and brand strategist focused on-product conversions. Content and brand strategist focused on-product conversions.",
+            "role": "Content Writing ",
+            "tags": ["Content Writing", "Single Page"],
+            "thumbnail": "/images/templetes/joshv2.png"
+        },
+        "vishwavijay":{
+            "id": "vishwavijay",
+            "name": "SEO Marketing",
+            "description": "Use this template to create your SEO focused marketing portfolio. This template will put you far ahead of the compitetion.",
+            "role": "SEO Marketing",
+            "tags": ["Marketing","Single page", "SEO"],
+            "thumbnail": "/images/templetes/vishwavijay.png"
+        },
+        "vishwavijayrana":{
+            "id": "vishwavijayrana",
+            "name": "Performance Marketing",
+            "description": "Expert at online campaigns? This template is targeted towards marketers that drive actions, track growth to increase brand awarness.",
+            "role": "Performance Marketing",
+            "tags": ["Marketing","Multi pager", "Campaign"],
+            "thumbnail": "/images/templetes/vishwavijayrana.png"
+        },
+        "contentwriter1": {
+            "id": "contentwriter1",
+            "name": "Copywriting",
+            "description": "This template is designed for freelancers who have experience in multiple industries. Organise your portfolio to suit multiple demographs.",
+            "role": "Copywriting",
+            "tags": ["Copywriting","Multi Page"],
+            "thumbnail": "/images/templetes/contenwriter1.png"
+        },
+        "joshbraun": {
+            "id": "joshbraun",
+            "name": "Content Writing",
+            "description": "Content and brand strategist focused on-product conversions. Content and brand strategist focused on-product conversions.",
+            "role": "Content Writing",
+            "tags": ["Content Writing", "Single Page"],
+            "thumbnail": "/images/templetes/joshbraun.png"
+        },
+        "joshcontent": {
+            "id": "joshcontent",
+            "name": "Copywriting",
+            "description": "Many freelancers get clients from different industries. Arrange your work samples, links and services on different pages based on Industry.",
+            "role": "Copywriting",
+            "tags": ["Copywriting","Multi Page","Ad content"],
+            "thumbnail": "/images/templetes/joshcontent.png"
+        },
+        "kellyv3": {
+            "id": "kellyv3",
+            "name": "Copywriting",
+            "description": "This template is designed for freelancers who are new to freelancer copywriting. Organise your work samples, testimonials and services with ease.",
+            "role": "Copywriting",
+            "tags": ["Copywriting", "Single Page", "Beginner"],
+            "thumbnail": "/images/templetes/kellyv3.png"
+        },
+        "kellycai": {
+            "id": "kellycai",
+            "name": "Copywriting",
+            "description": "Organise your work by clients. Show how much value youv’e brought to your clients by adding links of your various work samples.",
+            "role": "Copywriting",
+            "tags": ["Copywriting", "Single Page", "Client Focused"],
+            "thumbnail": "/images/templetes/kellycai.png"
+        },
+        "graphics1": {
+            "id": "graphics1",
+            "name": "Graphics Designer",
+            "description": "Let your work do the talking! Showcase your work front and centre. Use versioning to create multiple pages highlighting work, experience, etc.",
+            "role": "Graphics Designer",
+            "tags": ["Graphics Designer", "Multi Page"],
+            "thumbnail": "/images/templetes/graphics1.png"
+        },
+        "graphics2": {
+            "id": "graphics2",
+            "name": "Graphics Designer",
+            "description": "Experieced freelancer designers with a studio with many work samples can ultilize versioning to create pages with varied content.",
+            "role": "Graphics Designer",
+            "tags": ["UX Designer", "Multi Page"],
+            "thumbnail": "/images/templetes/graphics2.png"
+        },
+        "uxdesigner1": {
+            "id": "uxdesigner1",
+            "name": "UX Designer",
+            "description": "This template is designed for aspiring UX Designers. A collection of case studies and services will set you up for your first client!",
+            "role": "UX Designer",
+            "tags": ["UX Designer","Single Page"],
+            "thumbnail": "/images/templetes/uxdesigner1.png"
+        },
+        "uxdesigner2": {
+            "id": "uxdesigner2",
+            "name": "UX Designer",
+            "description": "Aimed at experienced freelancers who have dipped thier feet in various digital fields. Organise your work in pages different clients from different fields.",
+            "role": "UX Designer",
+            "tags": ["UX Designer","Multi Page"],
+            "thumbnail": "/images/templetes/uxdesigner2.png"
+        }
+    }
+}
